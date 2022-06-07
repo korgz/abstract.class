@@ -3,8 +3,10 @@ using Lession10;
 
 
 
-Vehiacle audi = new Vehiacle();
+Vehiacle audi = new Car();
+audi.Name = "Audi";
 Car bmw = new Car();
+bmw.Name = "Bmw";
 
 
 audi.SoundHorn();
@@ -20,3 +22,6 @@ bmw.SppedUp();
 Bus mercedesBus = new Bus();
 
 mercedesBus.SoundHorn();
+
+bmw.StarttoDrive();
+mercedesBus.StarttoDrive();

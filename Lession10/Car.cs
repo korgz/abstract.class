@@ -17,6 +17,11 @@ namespace Lession10
 
             Console.WriteLine("I am speeding up");
         }
+
+        public override void StarttoDrive()
+        {
+            Console.WriteLine("5");
+        }
     }
 }
 

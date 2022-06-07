@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lession10
 {
-    public class Vehiacle
+    public abstract class Vehiacle
     {
         private int _productionYear;
 
@@ -25,6 +25,7 @@ namespace Lession10
         {
             Console.WriteLine("Beep beep");
         }
+        public abstract void StarttoDrive();
     }
 }
 

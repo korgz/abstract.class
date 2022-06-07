@@ -15,5 +15,9 @@ namespace Lession10
             base.SoundHorn(); //pec izveles pasaucam bazes klASes funkcionalitatu
         }
 
+        public override void StarttoDrive()
+        {
+            Console.WriteLine("4");
+        }
     }
 }
