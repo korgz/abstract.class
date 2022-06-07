@@ -16,3 +16,7 @@ bmw.SppedUp();
 
 
 // int bmwProductionYear = bmw.ProductionYear; Nevar piekļūt, jo pieejas līmenis ir protected
+
+Bus mercedesBus = new Bus();
+
+mercedesBus.SoundHorn();

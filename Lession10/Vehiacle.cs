@@ -21,7 +21,7 @@ namespace Lession10
 
         protected int ProductionYear => _productionYear;
 
-        public void SoundHorn()
+        public virtual void SoundHorn()
         {
             Console.WriteLine("Beep beep");
         }
